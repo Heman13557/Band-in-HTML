@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(35deg,rgba(138, 0, 0, 0.4),rgba(255, 39, 39, 0.7));
+    margin: 0;
+
+    
+}
+
+.main{
+    padding: 20PX;
+    background: rgba(0,0,0,0.05);
+    backdrop-filter: blur(15px);
+    border-radius: 12px;
+}
+.main .key{
+    opacity: 1;
+    color: white;
+    display: inline-block;
+    font-size: 200%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 4px black solid;
+    border-radius: 12px;
+    padding: 0.4em;
+    width: 1.95em;
+    margin: 0 0.5em;
+    text-align: center;
+    transition: all 0.37s;
+    
+}
+
+.key span{
+    color: rgb(228, 165, 7);
+    display: block;
+    font-size: 60%;
+    text-align: center;
+    -webkit-text-stroke: 0.3px black;
+}
+
+
+.playy{
+    transform: scale(1.2);
+    border-color: cyan;
+    box-shadow: cyan 0 2px 5px;
+
+
+
+}
